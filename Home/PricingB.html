@@ -1,0 +1,1623 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- Copied from https://fincompliance.io/Home/PricingB by Cyotek WebCopy 1.8.3.768, Tuesday, November 9, 2021, 11:36:15 PM -->
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="icon" type="image/x-icon" href="..\Content\fincompliance2021\images\images\logos\tab-icon.ico">
+    <link href="https://fincompliance.io/PricingB.cshtml" rel="canonical">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pricing chart">
+    <title>Pricing</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Select2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Iconmoon -->
+    <link href="..\Content\fincompliance2021\assets\iconmoon\css\iconmoon.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <!-- Video Popup -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="..\Content\fincompliance2021\css\custom.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css" rel="stylesheet">
+
+    <style>
+        .accordion .card-header h3:after {
+            font-family: 'FontAwesome';
+            content: "\A \f068";
+            white-space: pre-wrap;
+            opacity: 35%;
+        }
+
+        .accordion .card-header h3:after {
+            font-family: 'FontAwesome';
+            content: "\A \f067 Click to expand";
+            white-space: pre-wrap;
+            opacity: 35%;
+        }
+
+        .career-accordian li {
+            padding: 0 20px 0 20px;
+            position: relative;
+            width: 100%
+        }
+
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-93338344-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-93338344-5');
+    </script>
+</head>
+
+<body class="m-0 p-0">
+    <!-- ==============================================
+        **Preloader**
+        =================================================== -->
+    <div id="loader">
+        <div id="element">
+            <div class="circ-one"></div>
+            <div class="circ-two"></div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+**Header**
+=================================================== -->
+    <header class="opt2">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand col-6 col-sm-4 col-lg-3 p-2" href="..\index.html"><img id="NavbarLogo" src="..\Content\fincompliance2021\images\logos\logo.png" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav  mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link topnav" href="..\index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link topnav dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu megamenu minimenu" aria-labelledby="dropdown1">
+                                <div class="inner">
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item" href="WhoWeAre.html">Who We Are</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="FAQB.html">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="Impact.html">Impact</a>
+                                        <li>
+                                            <a class="dropdown-item" href="CaseStudies.html">Case Studies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link topnav dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                            <div class="dropdown-menu megamenu" aria-labelledby="dropdown1">
+                                <div class="inner">
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item" href="HowItWorksB.html">How It Works</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ComplianceConsulting.html">Compliance Consulting</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ComplianceManager.html">Compliance Manager</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item" href="BusinessManager.html">Business Manager</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="Integrations.html">Integrations</a>
+                                        </li>
+
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item" href="FINBusinessMarketplace.html">Business Marketplace</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="DisclosureCenter.html">Disclosure Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="BusinessContinuity.html">Business Continuity</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="AffiliateProgram.html">Affiliate Program</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="CyberReview.html">Cybersecurity Review</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link topnav" href="PricingB.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link topnav" href="ContactB.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-right d-flex justify-content-center">
+                        <li><a href="SignUp.html">Signup</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </header>
+
+    <!-- ==============================================
+    **Banner Image**
+    =================================================== -->
+    <div class="inner-banner">
+        <div class="fin-bg">
+            <div class="contents">
+                <div class="container">
+                    <div class="row pt-5">
+                        <div class="col-7 my-auto">
+                            <h1 class=" border-right text-center border-dark">Pricing</h1>
+                        </div>
+                        <div class="col-5">
+                            <img class="img-responsive" src="..\Content\fincompliance2021\images\images\screenshots\devices.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Summary of Services-->
+    <section class="components choose-pack opt1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h2 class="mt-5 pb-0">Summary of Services</h2>
+                    Our Compliance and Business Management Solutions
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="components choose-pack opt1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h2 class="mt-5 pb-0">How we compare</h2>
+                    FIN Compliance vs. Popular Competitor
+                </div>
+            </div>
+            <ul class="pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="justify-content-center">
+                            <div class="card-header collapsed" role="tab" id="headingTab">
+                                <a data-toggle="collapse" href="#collapseTab" aria-expanded="true" aria-controls="collapseTab">
+                                    <h3>
+                                        FIN Compliance
+                                    </h3>
+                                </a>
+                            </div>
+                            <div id="collapseTab" class="collapse" role="tabpanel" aria-labelledby="headingTab" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <li class="col-md">
+                                            <div class="inner h-100">
+                                                <div class="cnt-block my-auto">
+                                                    <h6><strong> Registration</strong></h6>
+                                                    <span style="color:red"><strong>Starting at $3,595 (for all firms)</strong></span>
+                                                    <br> No discounts when bundling
+                                                    <p></p>
+                                                    <h6><strong>Ongoing Compliance*</strong></h6>
+                                                    Bundling packages technology, limited filings, and consulting<br>
+                                                    <span style="color:red"><strong> Starting at $2,395/yr (for State-registered firms)</strong></span><br><span style="color:red">
+                                                        <strong>
+                                                            Starting at $3,495/yr (for SEC-registered firms)
+                                                        </strong>
+                                                    </span>
+                                                    <br>
+                                                    <p></p>
+                                                    <h6><strong>Breakdown of Products/Services</strong></h6>
+                                                    Technology (features: calendar, forms, templates + mobile app)
+                                                    <br>Filings (2 included: add-on fee for additional filings)
+                                                    <br>Consulting (General Q&A included: add-on fee for other work)
+                                                    <br>Technology/App (included)
+                                                    <br>Add-ons/other services (inquire)
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul class="pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="headingTabTwo">
+                            <a data-toggle="collapse" href="#collapseTabTwo" aria-expanded="true" aria-controls="collapseTabTwo">
+                                <h3>
+                                    Popular Competitor
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="collapseTabTwo" class="collapse" role="tabpanel" aria-labelledby="headingTabTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <li class="col-md">
+                                    <div class="inner h-100">
+                                        <div class="cnt-block my-auto">
+                                            <h6>
+                                                <strong>
+                                                    RIA Registration
+                                                </strong>
+                                            </h6>
+                                            <span style="color:red"> <strong>Starting at $4,000 (state firms)</strong></span>
+                                            <br> <span style="color:red"><strong>Starting at $6,000 (SEC firms)</strong></span>
+                                            <br> some discounts if bundling
+                                            <p></p>
+                                            <h6><strong>Ongoing Compliance</strong></h6>
+                                            Bundling technology, unlimited filings, and consulting<br>
+                                            <span style="color:red"> <strong>Starting at $7,800/yr (for state-registered firms)</strong></span>
+                                            <br> <span style="color:red"><strong>Starting at $12,900/yr (for SEC-registered firms)</strong></span>
+                                            <p></p>
+                                            <h6><strong>Breakdown of Products/Services</strong></h6>
+                                            Technology (features: calendar, forms, templates + mobile app)
+                                            <br>Filings (unlimited)
+                                            <br>Consulting (General Q&A, 3 additional state registrations,
+                                            <br> procedures manual, marketing reviews)
+                                            <br> Add-ons/other services (inquire)
+                                            <p></p>
+                                            <h6><strong>Our Value</strong></h6>
+                                            <span style="color:red"><strong>Why the starting price difference?</strong></span>
+                                            <br>We give our smaller/boutique-sized firms the option to price in services based on the amount of outsourced assistance needed. Note: Some of our pricing may be comparable to our competitors when adding services.
+                                            Competitor pricing estimates are based on a website review and the actual fees may change depending on several factors. We cannot guarantee the accuracy of any competitor estimates.
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="components choose-pack opt1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h2 class="mt-5 pb-0">
+                        RIA Registration
+                    </h2>
+                    Startup your practice and receive ongoing support options
+                </div>
+            </div>
+            <ul class=" pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="justify-content-center">
+                            <div class="card-header collapsed" role="tab" id="headingOne">
+                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h3>RIA Registration</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title">
+                                                    <span class="w-75 py-2 h6">Registration</span>
+                                                    <h5 class="p-0 m-0">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+
+                                                        </span>
+                                                        <span class="org">
+
+                                                        </span>
+                                                        <span>
+
+                                                        </span>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">$3595/yr and up</div>
+                                                    </div>
+                                                </div>
+                                            </div><strong>(depending on type/# of jurisdictions)</strong>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Consulting Support</strong></h6>
+                                                Registration Process
+                                                <p>
+                                                    ADV Form Part 1A/B; Part 2A & B Brochure Filings
+                                                </p>
+                                                <h6><strong>Compliance Services</strong></h6>
+                                                Inquire on ongoing customized/bundled packages
+                                                <p></p>
+                                                <h6><strong>Compliance Technology</strong></h6>
+                                                Desktop Solution
+                                                <p>
+                                                    Compliance/Business Manager
+                                                    <br> Premium Version
+                                                    <br>Premium+ Version
+                                                </p>
+                                                Mobile Solution
+                                                <p>
+                                                    FIN Disclosure Application
+                                                    <br>Basic Version
+                                                    <br>Unlimited Version
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <a href="ComplianceManager.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="components choose-pack opt1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h2 class="mt-5 pb-0">
+                        Compliance Consulting
+                    </h2>
+                    Bundled with Desktop and Mobile Technology Services
+                </div>
+            </div>
+            <ul class=" pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="headingTwo">
+                            <a data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <h3>State</h3>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Tier 1: Gold
+                                                    </span>
+                                                    <h5 class="p-0 m-0">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $5495/yr and up
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 6 (add-on available)
+                                                </p>
+                                                <b>Registrations</b>
+                                                <p>
+                                                    Partial Registration
+                                                    <br>SEC to State registration
+                                                    <br>State to SEC registration
+                                                    <br>Additional states
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Quarterly/Ongoing Reviews
+                                                    <br> Periodic Reviews of books/records
+                                                    <br> Action Plan
+                                                    <br> Policies/Procedures Check
+                                                    <br> Mock Audit
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 3 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">Tier 2: Silver</span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+
+                                                        </span>
+                                                        <span class="org">
+
+                                                        </span>
+                                                        <span>
+
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $3495/yr and up
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 4 (add-on available)
+                                                </p>
+                                                <b>Registrations</b>
+                                                <p>
+                                                    Partial Registration
+                                                    <br>SEC to State registration
+                                                    <br>State to SEC registration
+                                                    <br>Additional states
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Quarterly/Ongoing Reviews
+                                                    <br> Policies/Procedures Check
+
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 1 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">Tier 3: Bronze</span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">$2395/yr and up</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 2 (add-on available)
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Policies/Procedures Check
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 1 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <a href="ComplianceConsulting.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+
+            <ul class=" pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="headingThree">
+                            <a data-toggle="collapse" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <h3>SEC</h3>
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">Tier 1<br> Gold</span>
+                                                    <h5 class="p-0 m-0">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">$7495/yr and up</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 6 (add-on available)
+                                                </p>
+                                                <b>Registrations</b>
+                                                <p>
+                                                    Partial Registration
+                                                    <br>SEC to State registration
+                                                    <br>State to SEC registration
+                                                    <br>Additional states
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Quarterly/Ongoing Reviews
+                                                    <br> Periodic Reviews of books/records
+                                                    <br> Action Plan
+                                                    <br> Policies/Procedures Check
+                                                    <br> Mock Audit
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 3 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title">
+                                                    <span class="w-75 py-2 h6">Tier 2<br> Silver</span>
+                                                    <h5 class="p-0 m-0">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <span class="h3 p-0 m-0">$5495/yr and up</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 4 (add-on available)
+                                                </p>
+                                                <b>Registrations</b>
+                                                <p>
+                                                    Partial Registration
+                                                    <br>SEC to State registration
+                                                    <br>State to SEC registration
+                                                    <br>Additional states
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Quarterly/Ongoing Reviews
+                                                    <br> Policies/Procedures Check
+
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 1 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title">
+                                                    <span class="w-75 py-2 h6">Tier 3<br> Bronze</span>
+                                                    <h5 class="p-0 m-0">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">$3495/yr and up</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+
+                                                <h6><strong>Custom Options</strong></h6>
+                                                <p></p>
+                                                <b>Filings:</b>
+                                                <p>
+                                                    Up to 2 (add-on available)
+                                                </p>
+                                                <b>Reviews</b>
+                                                <p>
+                                                    Policies/Procedures Check
+                                                </p>
+
+                                                <h6><strong>Technology</strong></h6>
+                                                <p><strong>(Up to 1 users)</strong></p>
+                                                <b>Desktop Solution</b>
+                                                <p>
+                                                    Premium Version
+                                                    <br> *Premium+ version addon available
+                                                </p>
+                                                <b>Mobile Solution</b>
+                                                <p>
+                                                    Basic Version**
+                                                    <br>*Unlimited version addon available
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title">
+                                                    <span class="w-75 py-2 h6">Enterprise</span>
+                                                    <h5>
+                                                        <p></p>
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            <a class="btn-primary btn-lg" href="ContactB.html"> Request Quote</a>
+                                                        </div>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <p></p>
+                                                <p></p>
+                                                <div class="cnt-block my-auto">
+
+                                                    <h6><strong>Custom Options</strong></h6><br> FinTechs
+                                                    <p>
+                                                        Regulatory Mapping
+                                                        <br> Jurisdictional
+                                                        <br>Framework/research
+                                                        <br>Compliance Portals
+                                                    </p>
+
+                                                    Financial Networks*
+                                                    <p>
+                                                        Compliance*
+                                                        <br> Operations*
+                                                        <br> *Joint projects with partners
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <a href="ComplianceConsulting.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="components choose-pack opt1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h2 class="mt-5 pb-0">
+                        Compliance/Business Management Desktop
+                    </h2>
+                    Desktop Application service only - no consulting services included
+                </div>
+            </div>
+
+            <ul class="pb-5 pt-0 career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="headingFive">
+                            <a data-toggle="collapse" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <h3>Advisors/Staff Members</h3>
+                            </a>
+                        </div>
+                        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        <u>Alternatives</u>
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $1595/yr
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    (or $125/mo.)
+                                                    <br> For Crypto, DeFi, and Blockchain Asset Firms
+                                                    <br>
+                                                    <br> ($250/yr or $25/mo. add user)
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Desktop</strong></h6><br>
+                                                <p>
+                                                    <br><u>Disclosure Center</u>
+                                                    <br>Public Disclosures
+                                                    <br>Staff Disclosures
+                                                    <br>
+                                             
+                                                    <br>Download via weblink
+                                                    <br>Request via email
+                                                    <br>Request via mailed
+                                                    <br>
+                                                    <br>Other Business Activities
+                                                    <br>Holdings Reports
+                                                    <br>Employee Attestations/Certification
+                                                        <br>Audit Logs
+                                                    <br>
+                                                </p>
+
+                                                <h6><strong>Mobile</strong></h6>
+                                                <p><br> Unlimited Version
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Premium+
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $1595/yr
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    (or $135/mo.)
+                                                    <br> For SEC and State Firms
+                                                    <br> <br>
+                                                    <br> ($250/yr or $25/mo. add user)
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Desktop</strong></h6><br>
+                                                <p>
+                                                    <br> Compliance Calendar
+                                                    <br> Guidelines
+                                                    <br> Alerts
+                                                    <br> Checklists
+                                                    <br> Maps
+                                                    <br> Forms
+                                                    <br> Disclosures/Filings
+                                                    <br> Video Library
+                                                    <br> Review Center
+                                                    <br> Integrations
+                                                    <br>
+                                                    <br> <u>File Portals</u>
+                                                    <br> Cloud Storage Directory
+                                                    <br> Secure Files Portal
+                                                    <br> Client Center
+                                                    <br> Project Center
+                                                    <br> Document Portal
+                                                    <br>
+                                                    <br> <u>Disclosure Center</u>
+                                                    <br> Public Disclosures
+                                                    <br> Staff Disclosures
+                                                    <br>
+                                                    <br> <u>Networking</u>
+                                                    <br> Advisor Directory
+                                                    <br> Vendor/Offers Directory
+                                                </p>
+
+                                                <h6><strong>Mobile</strong></h6>
+                                                <p> <br> Basic Version
+                                                    <br>
+                                                    <br> Unlimited Version
+                                                    <br> Add ($100/mo.)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Premium
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $1295/yr and up
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    (or $110/mo.)
+                                                    <br> For SEC and State Firms
+                                                    <br><br>
+                                                    <br> ($250/yr or $25/mo. add user)
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Desktop</strong></h6><br>
+                                                <p>
+                                                    <br> Compliance Calendar
+                                                    <br> Guidelines
+                                                    <br> Alerts
+                                                    <br> Checklists
+                                                    <br> Maps
+                                                    <br> Forms
+                                                    <br> Video Library
+                                                    <br> Review Center
+                                                    <br> Integrations
+                                                    <br>
+                                                    <br> <u>File Portals</u>
+                                                    <br> Cloud Storage Directory
+                                                    <br> Secure Files Portal
+                                                    <br> Client Center
+                                                    <br> Project Center
+                                                    <br> Document Portal
+                                                    <br>
+                                                    <br> <u>Disclosure Center</u>
+                                                    <br> Public Disclosures
+                                                    <br> Staff Disclosures
+                                                    <br>
+                                                    <br> <u>etworking</u>
+                                                    <br> Advisor Directory
+                                                    <br> Vendor/Offers Directory
+                                                </p>
+
+                                                <h6><strong>Mobile</strong></h6>
+                                                <p> <br> Basic Version
+                                                    <br>
+                                                    <br> Unlimited Version
+                                                    <br> Add ($100/mo.)
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Free
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        <br>
+
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span>
+                                                        </span>
+                                                        <span>
+                                                        </span><span class="">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $0
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    For all firms<br><br><br><br><br>
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6>
+                                                    <strong>
+                                                        Desktop
+                                                    </strong>
+                                                </h6><br>
+                                                <p>
+                                                    <br> Compliance Calendar
+                                                    <br> SEC/State Guidelines
+                                                    <br>
+                                                    <br> <u>Networking</u>
+                                                    <br> Vendor/Offers Directory
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <a href="BusinessManager.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="components choose-pack opt1 pb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="mt-5 pb-0">Disclosure Mobile Application</h2>
+                    Mobile Application Service only - no consulting services included
+                </div>
+            </div>
+            <ul class=" pt-0  career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="headingNine">
+                            <a data-toggle="collapse" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                <h3>
+                                </h3>
+                            </a>
+                        </div>
+                        <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Starter
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            Included in Paid Packages
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Mobile App</strong></h6><br> Staff Dashboard(1 admin)<br> Public Dashboard(Up to 25 users)
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Unlimited
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $1200/yr
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                <h6><strong>Mobile App</strong></h6><br> Staff Dashboard(1 admin)<br> Public Dashboard(Up to 25 users)
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <p></p>
+                                <h6><b>Inquire for larger user packages & enterprise integrations.</b></h6>
+                                <a href="/home/DisclosureCenter.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="components choose-pack opt1 pb-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="mt-5 pb-0">Cybersecurity</h2>
+                    Service offered w/Glacier Cybersecurity
+                </div>
+            </div>
+            <ul class=" pt-0  career-accordian">
+                <div id="accordion" class="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header collapsed" role="tab" id="heading10">
+                            <a data-toggle="collapse" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                <h3>
+                                </h3>
+                            </a>
+                        </div>
+                        <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Tier 1 Platinum
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $2000/mo </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    Setup fee: $1000
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                Access to cyber expert<br>Risk assessment/audit<br>Training<br>Dark Web Monitoring<br>Policy Development<br>Quarterly Scans
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Tier 2 <br>Gold
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $1000/mo
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    Setup fee: $1000
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                Access to cyber expert<br>Training<br>Dark Web Monitoring<br>Policy Development<br>Quarterly Scans
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Tier 3 Bronze
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $750/mo
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    Setup fee: $500
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                Access to cyber expert<br>Policy Development<br>Quarterly Scans
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md">
+                                        <div class="inner h-100">
+                                            <div class="head-block">
+                                                <div class="plan-title p-0 mt-4 mx-auto">
+                                                    <span class="w-75">
+                                                        Tier 4 Software
+                                                    </span>
+                                                    <h5 class="p-0 m-0 ">
+                                                        Starting From
+                                                    </h5>
+                                                </div>
+                                                <div class="price">
+                                                    <div class="graph">
+                                                        <span class="org">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+                                                        <span class="">
+                                                        </span>
+
+                                                    </div>
+                                                    <br>
+                                                    <div class="right">
+                                                        <div class="h3 p-0 m-0">
+                                                            $250/mo
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <strong>
+                                                    Setup fee: $500
+                                                </strong>
+                                            </div>
+                                            <div class="cnt-block my-auto">
+                                                Quarterly Scans
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                                <p></p>
+
+                                <a href="/home/CyberReview.html">
+                                    <div class="moreinfo row align-center">
+                                        <figure class="text-center mx-auto pt-5"><img class="img-fluid" style="width:50%;" src="..\Content\fincompliance2021\images\icons\moreinfo.png"> </figure>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <!-- ==============================================
+**Signup Section**
+=================================================== -->
+    <section class="signup-outer bg-info padding-lg">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-md-10">
+                    <ul class="clearfix">
+                        <li>
+                            <span class="icon-men"></span>
+                            <h4>Setup an <span>Account Profile</span></h4>
+                        </li>
+                        <li>
+                            <span class="icon-chat"></span>
+                            <h4>Review Compliance Calendar</h4>
+                        </li>
+                        <li>
+                            <span class="icon-lap"></span>
+                            <h4>Discuss Service Needs</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row w-75 justify-content-center">
+                    <div class="col mx-auto">
+                        <a href="SignUp.html" class="btn py-1 px-auto">Signup Here</a>
+                    </div>
+                    <div class="col mx-auto">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn py-1 px-auto video-btn" data-src="https://player.vimeo.com/video/587275011" data-toggle="modal" data-target="#myModal">
+                            Desktop Setup
+                        </button>
+                    </div>
+                    <div class="col mx-auto">
+                        <a href="ContactB.html" class="btn py-1 px-auto">Mobile Setup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="max-width: 800px; margin: 30px auto;">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative; padding: 0px;">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: -30px; top: 0; z-index: 999; font-size: 2rem; font-weight: normal; color: #fff; opacity: 1;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" autoplay="true" allowscriptaccess="always"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ==============================================
+**Footer opt2**
+=================================================== -->
+    <footer class="footer bg-white">
+        <div class="top pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mob-acco">
+                        <div class="quick-links">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="..\index.html">Home</a></li>
+                                <li><a href="WhoWeAre.html">About Us</a></li>
+                                <li><a href="FeaturesB.html">Features</a></li>
+                                <li><a href="PricingB.html">Pricing</a></li>
+                                <li><a href="ContactB.html">Contact Us</a></li>
+                                <li><a href="https://www.fincomplianceblog.com/">Blog</a></li>
+                                <li><a href="HowItWorksB.html">How it Works</a></li>
+                                <li><a href="FAQB.html">FAQ</a></li>
+                                <li><a href="AffiliateProgram.html">Affiliate Program</a></li>
+                                <li><a href="ContinuityPolicy.html">Continuity</a></li>
+                                <li><a href="PrivacyPolicyB.html">Privacy Policy</a></li>
+                                <li><a href="DisclaimersB.html">Disclaimers</a></li>
+                            </ul>
+                        </div>
+                        <div class="connect-outer">
+                            <h4>Connect with Us</h4>
+                            <ul class="connect-us">
+                                <li>
+                                    <a href="https://www.facebook.com/FINCompliance">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/complianceFIN">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/fincompliance">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mob-acco">
+                        <div class="recent-post">
+                            <h4>Recent Posts</h4>
+                            <ul class="list-unstyled" id="posts">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center col-md-12 col-lg-5 clearfix">
+                        <div class="large-btn">
+                            <a href="..\FIN Compliance Brochure (2021).pdf" class="btn">Download Brochure</a>
+                        </div>
+                        <div class="tweet clearfix">
+                            <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            <div class="right-cnt">
+                                <a class="twitter-timeline" data-lang="en" data-width="600" data-height="200" data-dnt="true" data-theme="light" href="https://twitter.com/ComplianceFin?ref_src=twsrc%5Etfw">Tweets by ComplianceFin</a>
+                                <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                                <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                                <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container"> FINCompliance™ is a division of Roberson Ventures Group, Inc. © All Rights Reserved (2018 - 2021). </div>
+        </div>
+        </div>
+    </footer>
+
+    <a href="SignUp.html" class="btn fixed-bottom get-started">SETUP AN ACCOUNT FOR REGULATORY UPDATES</a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="..\Content\fincompliance2021\js\videopopup.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootsrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <!-- Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <!-- Bxslider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <!-- Owl Carousal JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Video Popup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="..\Content\fincompliance2021\assets\waypoints\js\waypoints.min.js"></script>
+    <script src="..\Content\fincompliance2021\assets\counterup\js\counterup.min.js"></script>
+    <script src='../Content/fincompliance2021/js/custom.js'></script>
+    <script src='../Content/fincompliance2021/js/jquery-custom.js'></script>
+</body>
+
+<!-- Copied from https://fincompliance.io/Home/PricingB by Cyotek WebCopy 1.8.3.768, Tuesday, November 9, 2021, 11:36:15 PM -->
+
+</html>
